@@ -24,7 +24,7 @@ class BankAccount
         } 
         else 
         {
-            System.out.println("Invalid Deposit Amount.");
+            System.out.println("Invalid Deposit Amount");
         }
     }
 
@@ -38,7 +38,7 @@ class BankAccount
         } 
         else 
         {
-            System.out.println("Invalid Withdrawal Amount or Insufficient Funds.");
+            System.out.println("Invalid Withdrawal Amount or Insufficient Funds");
         }
     }
 }

@@ -20,7 +20,7 @@ class BankAccount
         if (amount > 0) 
         {
             balance += amount;
-            System.out.println("Deposit successful");
+            System.out.println("Deposit successful!");
         } 
         else 
         {

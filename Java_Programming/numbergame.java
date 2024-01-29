@@ -10,8 +10,8 @@ public class numbergame
         Scanner scanner = new Scanner(System.in);
             Random random = new Random();
             int lowerBound = 1;
-            int upperBound = 10;
-            int maxAttempts = 3;
+            int upperBound = 100;
+            int maxAttempts = 5;
             int score = 0;
 
             System.out.println("Number Guessing Game"); 
@@ -35,11 +35,11 @@ public class numbergame
                     } 
                     else if (userGuess < targetNumber) 
                     {
-                        System.out.println("It is Lesser. Try again.");
+                        System.out.println("Too Low. Try again.");
                     } 
                     else 
                     {
-                        System.out.println("It is Greater. Try again.");
+                        System.out.println("Too High. Try again.");
                     }
                 }
 
